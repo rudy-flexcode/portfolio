@@ -11,8 +11,8 @@ interface ComponentsProps{
 
 function Components({name, image,lien} : ComponentsProps) {
     return (
-        <div>
-        <figcaption>{name}</figcaption>    
+        <div className="card">
+        <h3>{name}</h3>    
         <img 
          className="pixprojet"
          src={image}
